@@ -1,5 +1,5 @@
 {% set name = "py7zr" %}
-{% set version = "0.16.1" %}
+{% set version = "0.16.2" %}
 
 
 package:
@@ -8,14 +8,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0ab402f73fc8cc41f2a5523436ae53dec6ff612597d9168ed80cfa1574d27fe0
+  sha256: e741f0271ebb12551e4a4b57bf01fca226e7136ff301d15c083cd262f8c4a0d6
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - py7zr = py7zr.__main__:main
-  script: 
+  script:
     - {{ PYTHON }} -m pip install . -vv
 
 requirements:
