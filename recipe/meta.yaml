@@ -36,6 +36,7 @@ requirements:
     - pyzstd >=0.14.4,<0.15.0
     - texttable
     - pybcpy
+    - pybcj
 
 test:
   imports:
