@@ -11,7 +11,7 @@ source:
   sha256: 1df67edaa8dd1613fc5a7de3354322e7bc75d989d6069924ce2d08bb7fabdd19
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - py7zr = py7zr.__main__:main
@@ -25,15 +25,14 @@ requirements:
     - setuptools >=45.0
     - setuptools-scm >=6.0.1
   run:
-    - bcj-cffi >=0.5.1,<0.6.0
     - brotli-python >=1.0.9
     - brotlicffi >=1.0.9.2
     - importlib_metadata
     - multivolumefile >=0.2.3
     - pycryptodomex >=3.6.6
-    - pyppmd >=0.15.0
+    - pyppmd >=0.17.0
     - python >=3.6
-    - pyzstd >=0.14.4,<0.15.0
+    - pyzstd >=0.14.4
     - texttable
     - pybcpy
     - pybcj
