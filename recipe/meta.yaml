@@ -42,7 +42,6 @@ test:
   imports:
     - py7zr
   commands:
-    - pip check
     - py7zr --help
   requires:
     - pip
