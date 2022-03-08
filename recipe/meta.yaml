@@ -36,6 +36,7 @@ requirements:
     - texttable
     - pybcpy
     - pybcj
+    - zipfile-deflate64
 
 test:
   imports:
