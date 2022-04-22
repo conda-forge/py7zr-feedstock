@@ -37,6 +37,7 @@ requirements:
     - pybcpy
     - pybcj
     - zipfile-deflate64
+    - psutil
 
 test:
   imports:
