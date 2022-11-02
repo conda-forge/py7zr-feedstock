@@ -38,6 +38,7 @@ requirements:
     - pybcj
     - zipfile-deflate64
     - psutil
+    - inflate64
 
 test:
   imports:
