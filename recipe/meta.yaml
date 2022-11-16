@@ -1,7 +1,6 @@
 {% set name = "py7zr" %}
 {% set version = "0.20.2" %}
 
-
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -11,7 +10,7 @@ source:
   sha256: 791ef912a295b61b91c5fe0c23adeddb80bf13500308062c082b8fec6c8c9653
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - py7zr = py7zr.__main__:main
@@ -21,32 +20,31 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
-    - setuptools >=45.0
-    - setuptools-scm >=6.0.1
+    - python >=3.7
+    - python-build
+    - setuptools >=63
+    - setuptools-scm >=7.0.5
   run:
     - brotli-python >=1.0.9
     - brotlicffi >=1.0.9.2
     - importlib_metadata
+    - inflate64 >=0.3.1
     - multivolumefile >=0.2.3
+    - psutil
+    - pybcj >=0.6.0
+    - pybcpy
     - pycryptodomex >=3.6.6
-    - pyppmd >=0.17.0
-    - python >=3.6
+    - pyppmd >=0.18.1,<1.1.0
+    - python >=3.7
     - pyzstd >=0.14.4
     - texttable
-    - pybcpy
-    - pybcj
     - zipfile-deflate64
-    - psutil
-    - inflate64
 
 test:
   imports:
     - py7zr
   commands:
     - py7zr --help
-  requires:
-    - pip
 
 about:
   home: https://github.com/miurahr/py7zr
