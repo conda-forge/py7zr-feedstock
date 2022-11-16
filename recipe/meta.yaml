@@ -43,10 +43,7 @@ requirements:
 test:
   imports:
     - py7zr
-  requires:
-    - pip
   commands:
-    - pip check
     - py7zr --help
 
 about:
