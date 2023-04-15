@@ -1,11 +1,11 @@
-About py7zr
-===========
+About py7zr-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py7zr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/miurahr/py7zr
 
 Package license: LGPL-2.1-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py7zr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Pure python 7-zip library
 
