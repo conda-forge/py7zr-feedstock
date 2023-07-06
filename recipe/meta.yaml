@@ -32,7 +32,6 @@ requirements:
     - multivolumefile >=0.2.3
     - psutil
     - pybcj >=0.6.0
-    - pybcpy
     - pycryptodomex >=3.6.6
     - pyppmd >=0.18.1,<1.1.0
     - python >=3.7
