@@ -10,7 +10,7 @@ source:
   sha256: 6fb4889c0fa32581818a3366984083253585d6c794e82c3242b8a12d6aeaabd3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - py7zr = py7zr.__main__:main
