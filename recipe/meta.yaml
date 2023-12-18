@@ -10,7 +10,7 @@ source:
   sha256: 2a6b0db0441e63a2dd74cbd18f5d9ae7e08dc0e54685aa486361d0db6a0b4f78
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - py7zr = py7zr.__main__:main
@@ -33,7 +33,7 @@ requirements:
     - psutil
     - pybcj >=0.6.0
     - pycryptodomex >=3.6.6
-    - pyppmd >=0.18.1,<1.1.0
+    - pyppmd >=1.1.0,<1.2.0
     - python >=3.7
     - pyzstd >=0.14.4
     - texttable
@@ -44,6 +44,9 @@ test:
     - py7zr
   commands:
     - py7zr --help
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/miurahr/py7zr
