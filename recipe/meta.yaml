@@ -44,6 +44,9 @@ test:
     - py7zr
   commands:
     - py7zr --help
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/miurahr/py7zr
