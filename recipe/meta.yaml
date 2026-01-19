@@ -1,5 +1,5 @@
 {% set name = "py7zr" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 087b1a94861ad9eb4d21604f6aaa0a8986a7e00580abd79fedd6f82fecf0592c
+  sha256: 2aee212c5516ddcbeb76874dc3ece38b4566fc003f51600032c723cfea89ac56
 
 build:
   number: 0
